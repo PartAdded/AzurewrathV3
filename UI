@@ -57,9 +57,7 @@ function Library:Window(title, color)
 	Title.ZIndex = 2
 	Title.Font = Enum.Font.SourceSans
 	Title.Text = title
-	Title.TextScaled = true
 	Title.TextColor3 = Color3.fromRGB(244, 244, 244)
-	Title.TextScaled = true
 	Title.TextSize = 14.000
 	Title.TextWrapped = true
 
@@ -179,7 +177,6 @@ function Library:Window(title, color)
 		Toggle.Size = UDim2.new(1, 0, 1, 0)
 		Toggle.Font = Enum.Font.SourceSans
 		Toggle.Text = " "..name
-		Toggle.TextScaled = true
 		Toggle.TextColor3 = Color3.fromRGB(174, 175, 176)
 		Toggle.TextSize = 20.000
 		Toggle.TextXAlignment = Enum.TextXAlignment.Left
