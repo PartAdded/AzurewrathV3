@@ -251,7 +251,6 @@ function Library:Window(title, color)
 		SliderLabel.Size = UDim2.new(0.577981651, 0, 0.638888896, 0)
 		SliderLabel.Font = Enum.Font.SourceSans
 		SliderLabel.Text = name
-		Toggle.TextScaled = true
 		SliderLabel.TextColor3 = Color3.fromRGB(174, 175, 176)
 		SliderLabel.TextSize = 20.000
 
