@@ -44,7 +44,7 @@ function Library:Window(title, color)
 	Window.BackgroundColor3 = color
 	Window.BorderSizePixel = 0
 	Window.Position = UDim2.new(0, getNextWindowPos() + 10, 0, 10)
-	Window.Size = UDim2.new(0, 109, 0, 36)
+	Window.Size = UDim2.new(0, 325, 0, 80)
 	Window.ZIndex = 2
 	Window.Active = true
 	Window.Draggable = true
@@ -63,8 +63,8 @@ function Library:Window(title, color)
 
 	Body.Name = "Body"
 	Body.Parent = Window
-	Body.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	Body.BackgroundTransparency = 1.000
+	Body.BackgroundColor3 = Color3.fromRGB(35, 23, 26)
+	Body.BackgroundTransparency = 0
 	Body.Size = UDim2.new(1, 0, 1, 0)
 
 	UIListLayout.Parent = Body
